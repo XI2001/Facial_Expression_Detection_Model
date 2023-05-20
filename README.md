@@ -20,3 +20,14 @@ By using yolov5x to extract the face and using resnet50 to extract the facial ex
 - Use training.py, change the params.py to automatically train it
 - The model automatically pad the figure to 640*640, for larger figure, you have to change the Final output Linear layer of the Model to adapt to the new figure size and outcome
 - This model originally use resnet50 as the backbone, for lower overfitting probability, you can use resnet18 or VGG to subsitute the origianl model
+
+## Weight
+- yolov5 Facial Detection model weight -> yolov5x.pt 
+  - Url：https://pan.baidu.com/s/1SbAkwlU75EKyybO5Xra1bw 
+  - password:47ch 
+- Facial Expression Detection model weight -> resnet50.pt
+  - Url：https://pan.baidu.com/s/1MBM559m5kXAKyW0_AHxdbw 
+  - password:bcpb 
+--来自百度网盘超级会员V4的分享
+## Notation
+- Using yolov5 original backbone to extract Facial Expression is hard to convergent during the training
