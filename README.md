@@ -4,7 +4,7 @@ By using yolov5x to extract the face and using resnet50 to extract the facial ex
 ## yolov5 Facial Detection
 ### Training
 - Refer to yolov5-original model https://github.com/ultralytics/yolov5
-- this model use yolov-5x.pt as pretrained weight 
+- this model use yolov-5x.pt as pretrained weight and use private dataset to do the training (98% precision and recall rate in testing dataset)
 ### Detect
 - The example of Facial Detection usage can refer to yolov5-master/OverallTraining.py -> code with annotation # # 脸部识别，和FacialExpression的检测搭配使用
 - The related weight is saved in yolov5-master/run/exp12/weights/best.pt
