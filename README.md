@@ -28,6 +28,6 @@ By using yolov5x to extract the face and using resnet50 to extract the facial ex
 - Facial Expression Detection model weight -> resnet50.pt
   - Url：https://pan.baidu.com/s/1MBM559m5kXAKyW0_AHxdbw 
   - password:bcpb 
---来自百度网盘超级会员V4的分享
+
 ## Notation
 - Using yolov5 original backbone to extract Facial Expression is hard to convergent during the training
